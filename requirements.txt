@@ -1,0 +1,27 @@
+# RAG Notebooks - Dependencias del proyecto
+# Instalar con: pip install -r requirements.txt
+
+# Variables de entorno
+python-dotenv==1.0.1
+
+# Interface de chat
+gradio==4.44.1
+
+# OpenAI API
+openai==1.51.0
+
+# LangChain y sus integraciones
+langchain==0.3.7
+langchain-openai==0.2.9
+langchain-chroma==0.1.4
+
+# Base de datos vectorial
+chromadb==0.5.20
+
+# Visualización
+matplotlib==3.9.2
+plotly==5.24.1
+
+# Machine Learning / reducción de dimensionalidad
+scikit-learn==1.5.2
+numpy==1.26.4
