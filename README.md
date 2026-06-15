@@ -80,7 +80,7 @@ Nota: la primera vez que se corre el notebook se generara `summaries_cache.json`
 
 
 ## Qué aprendí
-- Forma de trabajar con fragmentos de código en RAG con sus limitantes semánticas. En este proyecto se tuvo que decidir la definició óptima de "documento" a distintos niveles de granularidad, cuáles de ellos valían la pena y hacían sentido vectiorizar; así como aquellos que serían más útiles si su vector asociado provenía de una descripción previa generada por LLM.
+- Forma de trabajar con fragmentos de código en RAG con sus limitantes semánticas. En este proyecto se tuvo que decidir la definició óptima de "documento" a distintos niveles de granularidad, cuáles de ellos valían la pena y hacían sentido vectorizar; así como aquellos que serían más útiles si su vector asociado provenía de una descripción previa generada por LLM.
 - Uso del framework de LangChain y disernimiento sobre cuándo no se pueden implementar directamente librerías de LangChain (como por ejemplo el parseo de documentos en este caso) y generar reglas propias que atiendan de mejor manera las necesidades del problema.
 - Medir costo-beneficio para decidir a cuántos documentos convenía generarles un summary con LLM, y guardar los summaries en JSON desde la primera ejecucion para evitar costos repetidos.
 - Enriquecimiento de chunks con metadata para poder generar consultas a mayor detalle, por ejemplo: qué librerías de LLM se utilizaron para el proyecto de FlightAI? 
